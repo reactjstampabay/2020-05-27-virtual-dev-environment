@@ -1,2 +1,3 @@
 # 2020-05-27-virtual-dev-environment
-Lab: Deploying a virtual dev environment with AWS LightSail
+
+* [Create Lightsail instance on AWS](https://aws.amazon.com/lightsail/)
