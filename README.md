@@ -19,4 +19,4 @@
 
 ### Spin up a linux VPS
 
-**Why?** Allows us to move processor intense operations, like running a Docker Container, off our local machine. Some wins for this are longer battery life, ability to use less expensive hardware, and reduction of fan noise!
+**Why?** Allows us to move processor intense operations, like running a Docker Container, off our local machine. Some quicks wins for consitent and reproducible development environments, this are longer battery life, reduced fan noise, and ability to use less expensive hardware (Chromebook for example).
