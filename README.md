@@ -8,7 +8,7 @@
 
 ## Goals
 
-  * Spin up a linux VPS (Virtual Private Server) that will run our containerized API and DB for local development. 
+  * Spin up a linux VPS (Virtual Private Server) that will run our containerized API and DB for our development environment.
   * SSH into our VPS.
   * Clone our GitLab API Repository (using SSH). We will use an actual API repository from an EdTech SaaS that John and Jordan have been working on.
   * Install docker engine and docker compose.
@@ -16,3 +16,7 @@
   * Install PostgreSQL client tools.
   * Install all required tooling on our VPS.
   * Demonstrate how VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) so we can develop against our API.
+
+### Spin up a linux VPS
+
+**Why?** Allows us to move processor intense operations, like running a Docker Container, off our local machine. Some wins for this are longer battery life, ability to use less expensive hardware, and reduction of fan noise!
