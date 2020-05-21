@@ -10,7 +10,7 @@
 
   * Spin up a linux VPS (Virtual Private Server) that will run our containerized API and DB for local development. 
   * SSH into our VPS.
-  * Clone our API Repository (using SSH). We will use an actual API repository from an EdTech SaaS that John and Jordan have been working on.
+  * Clone our GitLab API Repository (using SSH). We will use an actual API repository from an EdTech SaaS that John and Jordan have been working on.
   * Install docker engine and docker compose.
   * Install Google Cloud SDK.
   * Install PostgreSQL client tools.
