@@ -8,6 +8,11 @@
 
 ## Goals
 
-  * Spin up a linux VPS (Virtual Private Server) that will run our containerized API and DB for local development. We will use an actual API repository from an EdTech SaaS that John and Jordan have been working on.
+  * Spin up a linux VPS (Virtual Private Server) that will run our containerized API and DB for local development. 
+  * SSH into our VPS.
+  * Clone our API Repository (using SSH). We will use an actual API repository from an EdTech SaaS that John and Jordan have been working on.
+  * Install docker engine and docker compose.
+  * Install Google Cloud SDK.
+  * Install PostgreSQL client tools.
   * Install all required tooling on our VPS.
   * Demonstrate how VS Code can be used to [open a folder on our VPS](https://code.visualstudio.com/docs/remote/ssh) and develop against our API.
