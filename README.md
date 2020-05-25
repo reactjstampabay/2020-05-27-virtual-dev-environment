@@ -20,3 +20,5 @@
 ### Spin up a linux VPS
 
 **Why?** Allows us to move processor intense operations, like running a Docker Container, off our local machine. Some quicks wins are consitent and reproducible development environments, hardware comes interchangable, longer laptop battery life, and ability to use less expensive hardware (Chromebook for example).
+
+  1. [Create Lightsail Instance](https://lightsail.aws.amazon.com/)
