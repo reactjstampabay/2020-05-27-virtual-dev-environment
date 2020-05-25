@@ -27,7 +27,7 @@
   4. **Launch Script** => Leave blank for now
   5. **SSH Key** => We will use the default for this lab
   6. **Snapshots** => We will leave disabled for this lab
-  7. **Choose Instance Plan** => I am selecting the $10/mo option - you can select whichever option you prefer
+  7. **Choose Instance Plan** => _Select whichever option you prefer_
   8. **Identify Instance** => Add an instance name
   9. **Click Create Instance**
   
