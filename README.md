@@ -34,3 +34,9 @@
   This will take a few minutes to spin up.
   
 ## SSH into linux VPS
+
+**Why?** SSH will allow us to securely connect to our linux server through the command line and also later with VS Code. 
+
+  1. Click into our Instance and navigate to the **Connect** tab. Note your _Public IP_ and _User name_
+  2. Download the [Default SSH Key](https://lightsail.aws.amazon.com/ls/webapp/account/keys)
+  3. 
