@@ -21,7 +21,7 @@
 
 **Why?** Allows us to move processor intense operations, like running a Docker Container, off our local machine. Some quicks wins are consitent and reproducible development environments, hardware comes interchangable, longer laptop battery life, and ability to use less expensive hardware (Chromebook for example).
 
-  1. [Create Lightsail Instance](https://lightsail.aws.amazon.com/) and click **Create Instance**
+  1. [Log into AWS Lightsail](https://lightsail.aws.amazon.com/) and click **Create Instance**
   2. **Select a Platform** => Linux/Unix
   3. **Select a blueprint** => **OS Only** => Ubuntu 18.04 LTS
   
