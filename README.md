@@ -77,3 +77,4 @@
 **Why?** This repo uses _docker-compose_ for local development. We will need to install _docker-engine_ and _docker-compose_ in order to start the API.
 
   1. [Install Docker Engine](https://docs.docker.com/install/linux/docker-ce/ubuntu)
+  2. [Install Docker Compose](https://docs.docker.com/compose/install/#install-compose-on-linux-systems)
