@@ -145,7 +145,7 @@
   
 ## Remote Development using SSH
 
-**Why?** VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) allowing us to develop against a repository running on a VPS.
+**Why?** VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) allowing us to develop against a VPS.
 
   1. Install VS Code [Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
   2. Open the Command Palette `CMD + SHIFT + P` => `Remote-SSH: Add New SSH Host...` => `ssh ubuntu@<Public IP>`
