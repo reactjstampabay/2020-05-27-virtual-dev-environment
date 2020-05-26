@@ -14,7 +14,7 @@
   * Install docker engine and docker compose.
   * Install repository tooling.
   * Start the API!
-  * Install all required tooling on our VPS.
+  * Customize!
   * Demonstrate how VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) so we can develop against our API.
 
 ## Create Linux VPS
@@ -130,3 +130,16 @@
   2. Follow logs => `$ docker-compose logs -f`
   3. Demo hitting the API from Postman => :sob:
   3. Under **Networking** Tab, add a rule for port _3005_. You can restrict access to specific IP addresses.
+
+## Customize
+
+**Why?** In this section, we will customize our Linux VPS
+
+  1. [Install ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+  2. [Install Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh)
+  3. Set ZSH for ubuntu user => `$ sudo chsh -s $(which zsh) ubuntu`
+  4. Exit SSH and SSH In => We should see _Oh My ZSH_ as the default shell
+  5. [Install starship](https://computingforgeeks.com/how-to-install-starship-shell-prompt-for-bash-zsh-fish/)
+  6. [Install fnm](https://github.com/Schniz/fnm)
+  7. [Install Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable)
+  
