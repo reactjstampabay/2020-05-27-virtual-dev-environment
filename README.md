@@ -38,5 +38,6 @@
 **Why?** SSH will allow us to securely connect to our linux server through the command line and also later with VS Code. 
 
   1. Click into our Instance and navigate to the **Connect** tab. Note your _Public IP_ and _User name_
-  2. Download the [Default SSH Key](https://lightsail.aws.amazon.com/ls/webapp/account/keys)
-  3. 
+  2. Download the [Default SSH Key](https://lightsail.aws.amazon.com/ls/webapp/account/keys) as _lightsail-dev-environment.pem_
+  3. Move _lightsail-dev-environment.pem_ to `~/.ssh` => `mv /Users/<user>/Downloads/lightsail-dev-environment.pem ~/.ssh/lightsail-dev-environment.pem`
+  4. Add host to `~/.ssh/config` and link private key file `~/.ssh/lightsail-dev-environment.pem`
