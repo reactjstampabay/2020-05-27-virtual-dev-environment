@@ -1,6 +1,6 @@
 ## Motivation
 
-  This was motivated by switching laptops and having to setup a new local development environment. I began to explore options so that my development machine became more of a shell. Essentially moving my [dotfiles](https://www.freecodecamp.org/news/dive-into-dotfiles-part-1-e4eb1003cff6/) to reproducible cloud environment.
+  This was motivated by switching laptops and having to setup a new local development environment. I began to explore options so that my development machine mattered less. Essentially moving my [dotfiles](https://www.freecodecamp.org/news/dive-into-dotfiles-part-1-e4eb1003cff6/) to reproducible cloud environment.
   
   Some options that provide similar functionality are [AWS Cloud9](https://aws.amazon.com/cloud9/), [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/), and [GitHub Codespaces](https://github.com/features/codespaces/). I am planning on trying out VS Codespaces next.
   
