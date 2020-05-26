@@ -100,6 +100,15 @@
    $ docker run hello-world  
   ```
   
-  4. Start docker daemon => `$ sudo dockerd`
-
+  4. Use docker-compose to run `yarn` and install dependencies => `$ docker-compose run hapi yarn`
+  
+  ```
+   If docker daemon is not running.. 
+  
+   Check docker status => $ systemctl status docker
+   Stop docker service => $ sudo systemctl stop docker
+   Start docker daemon => $ sudo systemctl start docker
+  ```
+ 
+ Docker is good to go! :metal:
 
