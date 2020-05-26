@@ -17,7 +17,7 @@
   * Install all required tooling on our VPS.
   * Demonstrate how VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) so we can develop against our API.
 
-## Spin up a linux VPS
+## Spin up a Linux VPS
 
 **Why?** Allows us to move processor intense operations, like running a Docker Container, off our local machine. Some quicks wins are consitent and reproducible development environments, hardware comes interchangable, longer laptop battery life, and ability to use less expensive hardware (Chromebook for example).
 
@@ -33,7 +33,7 @@
   
   This will take a few minutes to spin up.
   
-## SSH into linux VPS
+## SSH into Linux VPS
 
 **Why?** SSH will allow us to securely connect to our linux server through the command line and also later with VS Code. 
 
