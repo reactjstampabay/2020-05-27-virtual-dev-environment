@@ -55,3 +55,15 @@
   9. Seriously, let us SSH! => `$ ssh <User name>@<Public IP>`
   
   We are now connected to our Linux VPS :bowtie:
+
+## Clone a GitLab API Repository
+
+**Why?** We will use this Linux environment as a development environment, so we will need access to our repositories, just like we would on a physical laptop. We are using GitLab for this demo, but the same concept would apply to GitHub.
+
+  1. Create SSH Key => `$ ssh-keygen -t ed25519 -C "lightsail-dev-environment"` => Press Enter as needed to select defaults
+  2. Copy _Public SSH Key_ => `$ cat .ssh/id_ed25519.pub` and copy/paste (note: we could have installed xclip)
+  3. [Open GitLab SSH Settings](https://gitlab.com/profile/keys) and Paste / Save the public SSH Key
+  4. Test things are working! => `$ ssh -T git@gitlab.com`
+  5. Type **yes** to continue connect and to add host to `~/.ssh/known_hosts`
+  
+  We are now connected to GitLab via SSH  <img src="https://emoji.slack-edge.com/T02592416/hipster-tanuki/94529b8ed5f5dd4a.png" alt="drawing" width="20"/>
