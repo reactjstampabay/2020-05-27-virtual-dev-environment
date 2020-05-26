@@ -76,5 +76,30 @@
 
 **Why?** This repo uses _docker-compose_ for local development. We will need to install _docker-engine_ and _docker-compose_ in order to start the API.
 
-  1. [Install Docker Engine](https://docs.docker.com/install/linux/docker-ce/ubuntu)
-  2. [Install Docker Compose](https://docs.docker.com/compose/install/#install-compose-on-linux-systems)
+  1. [Install Docker Engine](https://docs.docker.com/install/linux/docker-ce/ubuntu) => `$ sudo docker run hello-world`
+    
+   Docker engine installed! :neckbeard:
+  
+  2. [Install Docker Compose](https://docs.docker.com/compose/install/#install-compose-on-linux-systems) => `$ docker-compose --version`
+  
+  Docker Compose is now installed! :sunglasses:
+  
+  3. Add a docker user group to run commands without sudo.
+  
+  ```
+   // Create the docker group.
+   $ sudo groupadd docker
+
+   // Add your user to the docker group.
+   $ sudo usermod -aG docker $USER
+
+   // Activate group changes.
+   $ newgrp docker
+
+   // Verify that you can run docker commands without sudo.
+   $ docker run hello-world  
+  ```
+  
+  4. Start docker daemon => `$ sudo dockerd`
+
+
