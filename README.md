@@ -15,7 +15,7 @@
   * Install repository tooling.
   * Start the API!
   * Customize!
-  * Demonstrate how VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) so we can develop against our API.
+  * Remote Development using SSH
 
 ## Create Linux VPS
 
@@ -143,3 +143,8 @@
   6. [Install fnm](https://github.com/Schniz/fnm)
   7. [Install Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable)
   
+## Remote Development using SSH
+
+**Why?** VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) allowing us to develop against a repository running on a VPS.
+
+  1. Install VS Code [Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
