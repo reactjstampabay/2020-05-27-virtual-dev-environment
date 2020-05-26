@@ -67,3 +67,7 @@
   5. Type **yes** to continue connect and to add host to `~/.ssh/known_hosts`
   
   We are now connected to GitLab via SSH  <img src="https://emoji.slack-edge.com/T02592416/hipster-tanuki/94529b8ed5f5dd4a.png" alt="drawing" width="20"/>
+  
+  6. Create a `code` directory => `$ mkdir code`
+  7. Clone API Repository => `$ git clone git@gitlab.com:student-hub/student-hub-api.git`. We are cloning a private repository, so we can demo against an actual production api. At this step, you would be able to clone any of your GitLab repos.
+  8.  
