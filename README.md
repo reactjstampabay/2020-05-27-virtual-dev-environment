@@ -53,3 +53,5 @@
   7. Ok, let us SSH! => `$ ssh <User name>@<Public IP>`
   8. **WARNING: UNPROTECTED PRIVATE KEY FILE!** => `$ chmod 600 ~/.ssh/lightsail-dev-environment.pem`
   9. Seriously, let us SSH! => `$ ssh <User name>@<Public IP>`
+  
+  We are now connected to our Linux VPS :bowtie:
