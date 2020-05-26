@@ -71,3 +71,9 @@
   6. Create and cd into `code` directory => `$ mkdir code` `$ cd code` 
   7. Clone API Repository => `$ git clone git@gitlab.com:student-hub/student-hub-api.git`. We are cloning a private repository, so we can demo against an actual production api. At this step, you would be able to clone any of your GitLab repos.
   8.  Check out repo => `$ cd student-hub-api` `$ ls`
+
+## Install docker engine and docker compose
+
+**Why?** This repo uses _docker-compose_ for local development. We will need to install _docker-engine_ and _docker-compose_ in order to start the API.
+
+  1. [Install Docker Engine](https://docs.docker.com/install/linux/docker-ce/ubuntu)
