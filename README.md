@@ -1,6 +1,6 @@
 ## Motivation
 
-  `This concept was motivated by switching laptops and having to setup a new local development environment. I also wanted to take the dot files concept and expand it to a reproducable environment. Another motivating factor was that Docker has been large contributor to battery drain on my newer MBP and is the main cause of the fan kicking in and the laptop becoming very hot. Moving docker to a Linux VPS increased my battery life and eliminated the fan/heat concerns.`
+  `This concept was motivated by switching laptops and having to setup a new local development environment. I wanted to see how it easy it was to take the dot files concept and expand it to a fully reproducible environment. Another motivating factor was that Docker has been a large contributor to battery drain on my newer MBP. Docker is also the main cause of the fan kicking in and the laptop becoming very hot. Moving docker to a Linux VPS increased my battery life and eliminated the fan/heat concerns.`
 
 ## [What is AWS Lightsail](https://aws.amazon.com/lightsail/)
 
