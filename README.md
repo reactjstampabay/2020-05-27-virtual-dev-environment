@@ -148,3 +148,8 @@
 **Why?** VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) allowing us to develop against a repository running on a VPS.
 
   1. Install VS Code [Remote Development Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+  2. Open the Command Palette `CMD + SHIFT + P` => `Remote-SSH: Add New SSH Host...` => `ssh ubuntu@<Public IP>`
+  3. Select the appropriate SSH Config to update
+  4. Select the appropriate directory on the VPS.
+  
+VS Code is connected! Our development environment now lives in the cloud! :fire:
