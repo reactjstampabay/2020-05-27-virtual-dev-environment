@@ -24,7 +24,7 @@
   1. [Log into AWS Lightsail](https://lightsail.aws.amazon.com/) and click **Create Instance**
   2. **Select a Platform** => Linux/Unix
   3. **Select a blueprint** => **OS Only** => Ubuntu 18.04 LTS
-  4. **Launch Script** => Leave blank for now
+  4. **Launch Script** => Leave blank for now, but we want to automate this eventually!
   5. **SSH Key** => We will use the default for this lab
   6. **Snapshots** => We will leave disabled for this lab
   7. **Choose Instance Plan** => _Select whichever option you prefer_
