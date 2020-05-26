@@ -56,7 +56,7 @@
   
   We are now connected to our Linux VPS :bowtie:
 
-## Clone a GitLab API Repository
+## Clone GitLab Repository
 
 **Why?** We will use this Linux environment as a development environment, so we will need access to our repositories, just like we would on a physical laptop. We are using GitLab for this demo, but the same concept would apply to GitHub.
 
