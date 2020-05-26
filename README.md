@@ -12,8 +12,8 @@
   * SSH into our VPS.
   * Clone our GitLab API Repository (using SSH). We will use an actual API repository from an EdTech SaaS that John and Jordan have been working on.
   * Install docker engine and docker compose.
-  * Install Google Cloud SDK.
-  * Install PostgreSQL client tools.
+  * Install repository tooling.
+  * Start the API!
   * Install all required tooling on our VPS.
   * Demonstrate how VS Code can be used to [open a remote folder](https://code.visualstudio.com/docs/remote/ssh) so we can develop against our API.
 
@@ -102,9 +102,9 @@
   
   4. Use docker-compose to run `yarn` and install dependencies => `$ docker-compose run hapi yarn`
   
-  ```
-   If docker daemon is not running.. 
+  [If docker daemon is not running..](https://github.com/docker/for-linux/issues/281) 
   
+  ```  
    Check docker status => $ systemctl status docker
    Stop docker service => $ sudo systemctl stop docker
    Start docker daemon => $ sudo systemctl start docker
@@ -112,3 +112,21 @@
  
  Docker is good to go! :metal:
 
+## Install repository tooling
+
+**Why?** In this section, we will install tooling that is required for the API project we are using in this demo. Not all projects will require the same tools, but we wanted to demonstrate a real world example.
+
+  1. [Install Google Cloud SDK](https://cloud.google.com/sdk/docs/downloads-interactive#linux)
+  2. Create `~/student-hub-developer-service-account.json` and paste service account. This service account allows engineers to connect to GCP and interact with Development project cloud storage, etc.
+  3. Authenticate with GCP using developer service account => `$ gcloud auth activate-service-account <service-account-email> --key-file=./student-hub-developer-service-account.json`
+  4. Install Postgres Client Tools => `$ sudo apt install postgresql-client-10`
+  5. Import Postgres dumpfile from cloud storage and import. This allows engineers to have a local environment with production load data. We will eventually randomize this data during import, but not necessary right now.
+
+## Start the API!
+
+**Why?** Because we want to make sure it works!
+
+  1. Start API in detached mode => `$ docker-compose up -d`
+  2. Follow logs => `$ docker-compose logs -f`
+  3. Demo hitting the API from Postman => :sob:
+  3. Under **Networking** Tab, add a rule for port _3005_. You can restrict access to specific IP addresses.
