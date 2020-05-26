@@ -39,5 +39,17 @@
 
   1. Click into our Instance and navigate to the **Connect** tab. Note your _Public IP_ and _User name_
   2. Download the [Default SSH Key](https://lightsail.aws.amazon.com/ls/webapp/account/keys) as _lightsail-dev-environment.pem_
-  3. Move _lightsail-dev-environment.pem_ to `~/.ssh` => `mv /Users/<user>/Downloads/lightsail-dev-environment.pem ~/.ssh/lightsail-dev-environment.pem`
+  3. Move _lightsail-dev-environment.pem_ to `~/.ssh` => `$ mv /Users/<user>/Downloads/lightsail-dev-environment.pem ~/.ssh/lightsail-dev-environment.pem`
   4. Add host to `~/.ssh/config` and link private key file `~/.ssh/lightsail-dev-environment.pem`
+  5. Open `$ vim ~/.ssh/config` or Create `$ touch ~/.ssh/config`
+  
+  ```
+  Host <Public IP>
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/lightsail-dev-environment.pem
+  ```
+  6. Type **yes** to continue connect and to add host to `~/.ssh/known_hosts`
+  7. Ok, let us SSH! => `$ ssh <User name>@<Public IP>`
+  8. **WARNING: UNPROTECTED PRIVATE KEY FILE!** => `$ chmod 600 ~/.ssh/lightsail-dev-environment.pem`
+  9. Seriously, let us SSH! => `$ ssh <User name>@<Public IP>`
